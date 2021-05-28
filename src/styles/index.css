@@ -1,0 +1,33 @@
+:root{
+  --black:#000;
+  --blackSemiLight:#4C4E4E;
+  --white:#fff;
+  /* paleta azul */
+  --blue: #1814FA;
+  --blueSemiBlack:#0C0A7A;
+  --blueBlack:#06053B;
+  --blueLight: #1612E0;
+  --blueSemiLight:#120FBA;
+}
+
+::selection{
+  background-color: var(--blueBlack);
+  color: var(--white);
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: var(--white);
+  color: var(--blackSemiLight);
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  color: var(--blackSemiLight);
+  text-decoration: none;
+}
