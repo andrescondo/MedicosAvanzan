@@ -8,6 +8,9 @@
   --blueBlack:#06053B;
   --blueLight: #1612E0;
   --blueSemiLight:#120FBA;
+
+  --font-primeary:'Montserrat', sans-serif;
+  --font-secundary:'Rubik', sans-serif;
 }
 
 ::selection{
@@ -20,7 +23,8 @@ body{
   padding: 0px;
   background-color: var(--white);
   color: var(--blackSemiLight);
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: var(--font-secundary);
+  font-size:16px;
 }
 
 li{
